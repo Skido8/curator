@@ -1,0 +1,26 @@
+apiVersion: v1
+entries:
+  elasticsearch-curator:
+  - apiVersion: v1
+    appVersion: 5.7.6
+    created: "2023-05-18T16:53:19.9414413+02:00"
+    description: A Helm chart for Elasticsearch Curator
+    digest: 1ea565bd828db4d57e71ac699fe240eabe0a66ec1db7412a0c6246aec90abd53
+    home: https://github.com/elastic/curator
+    keywords:
+    - curator
+    - elasticsearch
+    - elasticsearch-curator
+    maintainers:
+    - email: gianrubio@gmail.com
+      name: gianrubio
+    - email: adam.hamsik@lablabs.io
+      name: haad
+    name: elasticsearch-curator
+    sources:
+    - https://github.com/kubernetes/charts/elasticsearch-curator
+    - https://github.com/pires/docker-elasticsearch-curator
+    urls:
+    - elasticsearch-curator-3.0.1.tgz
+    version: 3.0.1
+generated: "2023-05-18T16:53:19.9315125+02:00"
